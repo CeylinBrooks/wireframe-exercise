@@ -8,9 +8,87 @@ body{
 /* header */
 header {
   background-color: #444;
-  height: 100px;
+  /* height: 100px; */
 }
 
+header nav {
+  margin: auto;
+  width: 960px;
+}
+
+header img {
+  float: left;
+  margin-top: 15px;
+}
+
+/* header ul { */
+  /* float: left; */
+/* } */
+
+header li {
+  display: inline;
+  line-height: 100px;
+  margin-left: 30px;
+}
+
+header li:first-child {
+  margin-left: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color:#aaa;
+
+}
 /* main */
 
+main{
+  margin: auto;
+  width:960px;
+}
+
+img {
+  margin-top: 30px;
+}
+
+main li:first-child {
+  margin-left: 0px;
+}
+
+main li {
+  margin-left: 30px;
+  display: inline-block;
+}
+
+main article {
+  float: right;
+  width: 50%;
+  margin-top: 450px;
+}
+
+main h2 {
+  font-size: 25px;
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+main p {
+  height: 300px;
+  font-style: italic;
+  margin-left: 30px;
+  margin-top: 5px;
+  overflow: auto;
+}
+
+main div {
+  background-color: #111;
+  color: #eee;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-left: 30px;
+  padding: 10px 30px;
+  display: inline-block;
+  border-radius: 5px;
+  cursor: pointer;
+}
 /* footer */
