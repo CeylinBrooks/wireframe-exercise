@@ -28,7 +28,7 @@ header img {
 header li {
   display: inline;
   line-height: 100px;
-  margin-left: 30px;
+  margin-left: 90px;
 }
 
 header li:first-child {
@@ -57,12 +57,12 @@ main li:first-child {
 
 main li {
   margin-left: 30px;
-  display: inline-block;
+  float: left;
 }
 
 main article {
   float: right;
-  width: 50%;
+  width: 100%;
   margin-top: 450px;
 }
 
@@ -73,7 +73,7 @@ main h2 {
 }
 
 main p {
-  height: 300px;
+  height: 330px;
   font-style: italic;
   margin-left: 30px;
   margin-top: 5px;
@@ -91,4 +91,15 @@ main div {
   border-radius: 5px;
   cursor: pointer;
 }
+
+main div:hover {
+  background-color: red;
+  transition: 350ms;
+}
+
 /* footer */
+footer {
+  background-color: #444;
+  height: 125px;
+  margin-top: 30px;
+}
